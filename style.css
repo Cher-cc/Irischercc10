@@ -287,6 +287,12 @@ h2 {
     #6f91ad;
 }
 
+.fan-cover {
+  background:
+    linear-gradient(135deg, rgba(242, 158, 56, 0.92), rgba(242, 174, 180, 0.9) 60%, rgba(111, 145, 173, 0.9)),
+    #f29e38;
+}
+
 .work-content {
   padding: 1.5rem;
 }
@@ -316,6 +322,39 @@ h3 {
 .contact-box {
   border-radius: var(--radius-lg);
   padding: 2rem;
+}
+
+.novel-intro-grid {
+  margin-bottom: 2rem;
+}
+
+.novel-group + .novel-group {
+  margin-top: 2.5rem;
+}
+
+.novel-group-heading {
+  margin-bottom: 1.25rem;
+}
+
+.novel-group-heading h3 {
+  font-size: 1.8rem;
+}
+
+.stack-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.stack-link {
+  display: block;
+  padding: 1rem 1.2rem;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow);
+  color: var(--text);
+  font-weight: 700;
 }
 
 .contact-list {
